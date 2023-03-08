@@ -43,7 +43,7 @@ stages:
     environment:
       name:  Test-VM
       resourceType: VirtualMachine
-      tags: #web1 # Update or remove value to match your tag
+      # tags: #web1 # Update or remove value to match your tag
     strategy:
       runOnce:
         deploy:
